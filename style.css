@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 header {
     width: 100%;
@@ -150,9 +151,8 @@ color: grey;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.kar .container about {
-    width: 50%;
-    position: relative;
+.kar .cont  {
+    
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
@@ -160,6 +160,104 @@ color: grey;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.container {
+.kar {
+    width: 50%;
+    position: relative;
+    
+}
+.cont {
     display: flex;
 }
+#clr {
+    background-color: #f8f8f8;
+}
+.row {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.text-uppercase {
+padding-bottom: 60px;
+    text-transform: uppercase;
+  
+    font-size: 30px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.pricing .pricing-title {
+    background: #28a7e9;
+    color: #fff;
+    font-weight: bold;
+    padding: 30px;
+}
+.pricing-title {
+    font-size: 14px;
+    line-height: 1.42857143;
+    
+}
+#cr {
+    background-color: #f8f8f8;
+}
+.tb {
+    display: flex;
+}
+.btn {
+    background: transparent;
+    border: 1px solid #28a7e9;
+    border-radius: 0px;
+    color: #28a7e9;
+    font-weight: bold;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #28a7e9;
+}
+.ct {
+    width: 33.33333333%;
+    margin-top: -30px;
+}
+.bbb {
+    font-weight: bold;
+    font-size: 30px; 
+}
+.ttt .pricing .text-uppercase {
+    font-size: 16px;
+    background-color: #fff;
+    
+}
+h4 {
+   font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.wh {
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.42857143;
+   
+}
+.ttt {
+    margin-top: 0;
+    font-size: 14px;
+    display: block;
+    list-style: none;
+    padding: 16px;
+}
+li { padding: 16px;}
