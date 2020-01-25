@@ -261,3 +261,11 @@ h4 {
     padding: 16px;
 }
 li { padding: 16px;}
+ #contact
+  {
+   background:  url('https://www.templatemo.com/templates/templatemo_446_boxer/images/contact-bg.jpg') no-repeat
+ }
+ .derty {
+    width: 50%;
+    display: flex;
+ }
