@@ -1,271 +1,316 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 header {
-    width: 100%;
-    background-color: #fff;
-    position: fixed;
-    z-index: 4;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 4;
 }
 .container {
-    width: 60%;
-    margin: 0 auto;
-    position: relative;
-    z-index: 3;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
 }
 .home {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 #inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #teext {
-    color: #28a7e9;
+  color: #28a7e9;
 }
 .menu a {
-    margin-left: 30px;
-    text-decoration: none;
-    color: #6a6b6d;
-
+  margin-left: 30px;
+  text-decoration: none;
+  color: #6a6b6d;
 }
 .menu:hover {
-    color: #28a7e9;
+  color: #28a7e9;
 }
 .intr {
-    color: #28a7e9;
-    font-size: 30px;
-    font-weight: bold;
+  color: #28a7e9;
+  font-size: 30px;
+  font-weight: bold;
 }
 #home {
-    width: 100%;
-    height: 100vh;
-    background: url(https://www.templatemo.com/templates/templatemo_446_boxer/images/home-bg.jpg) no-repeat;
-    background-size: cover ;
-    z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background: url(https://www.templatemo.com/templates/templatemo_446_boxer/images/home-bg.jpg)
+    no-repeat;
+  background-size: cover;
+  z-index: 2;
 }
 .cont .home {
-    bottom: 50px;
-    font-size: 36px;
-    text-align: center;
-    z-index: 3;
+  bottom: 50px;
+  font-size: 36px;
+  text-align: center;
+  z-index: 3;
 }
 .cont h1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .home {
-    top: 200px;
-    text-align: center;
+  top: 200px;
+  text-align: center;
 }
 .text {
-    font-weight: bold;
+  font-weight: bold;
 }
 .intr:hover {
-color: black;
+  color: black;
 }
 #teeext:hover {
-    color: #28a7e9;
+  color: #28a7e9;
 }
 .flex-container {
-    display: -webkit-flex; 
-    display: flex; 
-    flex-direction: row;
-    flex:  3 1 100px;
-    }
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex: 3 1 100px;
+}
 .flex-container #r2 {
-margin-right:  5%;
-margin-left:  5%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 #t4 {
-color: black;
+  color: black;
 }
 #t1 {
-color: grey;
+  color: grey;
 }
 .flex-container #r1 {
-    margin-left: 100px; 
+  margin-left: 100px;
 }
 .flex-container #r3 {
-    margin-left: 100px; 
+  margin-left: 100px;
 }
 .f {
- width: 20%;
- text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  width: 20%;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .fa-twitter {
-    color: #28a7e9;
-    font-size: 60px;
+  color: #28a7e9;
+  font-size: 60px;
 }
 .fa-laptop {
-    color: #28a7e9;
-    font-size: 60px;
+  color: #28a7e9;
+  font-size: 60px;
 }
 .fa-autoprefixer {
-    color: #28a7e9;
-    font-size: 60px;
+  color: #28a7e9;
+  font-size: 60px;
 }
 .txt {
-    margin-bottom: 10px;
-    width: 100%;
+  margin-bottom: 10px;
+  width: 100%;
 }
 .flex-container {
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .za {
-    font-weight: bold;
-    display: flex;
+  font-weight: bold;
+  display: flex;
 }
 .fa-mobile-alt {
-    background: #28a7e9;
-    border-radius: 50%;
-    color: #fff;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin-right: 20px;
+  background: #28a7e9;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 20px;
 }
 .fa-rocket {
-    background: #28a7e9;
-    border-radius: 50%;
-    color: #fff;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin-right: 20px;
+  background: #28a7e9;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 20px;
 }
 #class {
-    background: #f8f8f8;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background: #f8f8f8;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-.kar .cont  {
-    
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.kar .cont {
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .kar {
-    width: 50%;
-    position: relative;
-    
+  width: 50%;
+  position: relative;
 }
 .cont {
-    display: flex;
+  display: flex;
 }
 #clr {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 .row {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .text-uppercase {
-padding-bottom: 60px;
-    text-transform: uppercase;
-  
-    font-size: 30px; 
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+  padding-bottom: 60px;
+  text-transform: uppercase;
+
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .pricing .pricing-title {
-    background: #28a7e9;
-    color: #fff;
-    font-weight: bold;
-    padding: 30px;
+  background: #28a7e9;
+  color: #fff;
+  font-weight: bold;
+  padding: 30px;
 }
 .pricing-title {
-    font-size: 14px;
-    line-height: 1.42857143;
-    
+  font-size: 14px;
+  line-height: 1.42857143;
 }
 #cr {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 .tb {
-    display: flex;
+  display: flex;
 }
 .btn {
-    background: transparent;
-    border: 1px solid #28a7e9;
-    border-radius: 0px;
-    color: #28a7e9;
-    font-weight: bold;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-    display: inline-block;
-    padding: 6px 12px;
-    cursor: pointer;
+  background: transparent;
+  border: 1px solid #28a7e9;
+  border-radius: 0px;
+  color: #28a7e9;
+  font-weight: bold;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
 }
 .btn:hover {
-    color: #fff;
-    background-color: #28a7e9;
+  color: #fff;
+  background-color: #28a7e9;
 }
 .ct {
-    width: 33.33333333%;
-    margin-top: -30px;
+  width: 33.33333333%;
+  margin-top: -30px;
 }
 .bbb {
-    font-weight: bold;
-    font-size: 30px; 
+  font-weight: bold;
+  font-size: 30px;
 }
 .ttt .pricing .text-uppercase {
-    font-size: 16px;
-    background-color: #fff;
-    
+  font-size: 16px;
+  background-color: #fff;
 }
 h4 {
-   font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 .wh {
-    background-color: #fff;
-    font-size: 14px;
-    line-height: 1.42857143;
-   
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.42857143;
 }
 .ttt {
-    margin-top: 0;
-    font-size: 14px;
-    display: block;
-    list-style: none;
-    padding: 16px;
+  margin-top: 0;
+  font-size: 14px;
+  display: block;
+  list-style: none;
+  padding: 16px;
 }
-li { padding: 16px;}
- #contact
-  {
-   background:  url('https://www.templatemo.com/templates/templatemo_446_boxer/images/contact-bg.jpg') no-repeat
- }
- .derty {
-    width: 50%;
-    display: flex;
- }
+li {
+  padding: 16px;
+}
+#contact {
+  background: url("https://www.templatemo.com/templates/templatemo_446_boxer/images/contact-bg.jpg")
+    no-repeat;
+}
+
+
+.overlay {
+    display: block;
+}
+.col-md-6 {
+  width: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.nambo {
+  display: table;
+}
+#contact {
+  color: #fff;
+}
+.fa {
+  display: inline-block;
+  background: #28a7e9;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 6px;
+  margin-right: 10px;
+  display: inline-block;
+  font: normal normal normal 14px/1;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+#contact {
+  display: flex;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.form-control {
+    width: 100%;
+}
+#contact input {
+    height: 50px;
+}
+#contact .form-control {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
